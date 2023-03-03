@@ -1,17 +1,23 @@
-//Sistema de Gerenciamento Joguinhos
+//Criando classe gamer com base no diagrama UML Joguinhos
 
-
-const gamers = {  //classe gamer - sinta
-    name: "Suzana",
+const gamer = {
+    name: "suzana",
     email:"suzana@adxspace.com.br",
     ativo: true,
-    cargo:"player",
-    exibeInfo : function(){
-        console.log(this.name, this.email) //palabra chave --> this 
+    charge:"gamer",
+    displayInfo(){
+        console.log(this.name, this.charge)
     }
 }
-userHBO.exibeInfo()
+gamer.displayInfo()
+
+const display = function(){
+    console.log(this.email)
+}
+display()//undefined, no context
+
+const displayEmail = display.bind(gamer)
+displayEmail() //botei em contexto com a função bind que trabalha com o this
 
 
-
-Object.setPrototypeOf(admin, user)
+//herança de protótipo - this 
