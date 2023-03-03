@@ -21,3 +21,5 @@ displayEmail() //botei em contexto com a função bind que trabalha com o this
 
 
 //herança de protótipo - this 
+
+//for commit
