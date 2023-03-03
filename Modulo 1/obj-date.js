@@ -22,4 +22,4 @@ console.log(dataHour2.getFullYear())
 
 
 
-//node obj-date.js, execut in cmd to commit
+//node obj-date.js, execut in cmd to commit 
