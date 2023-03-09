@@ -6,7 +6,11 @@ function User(name, cpf){
     }
 }
 
-const newUser = new User('Suzana','06515374100')
+const newUser = new User('Suzana','0010001001') //função construtora
 newUser.displayInfo()
 
-//classe --> class User || class Car || class MyStore
+//classe --> class User || class Car || class MyStore;
+//new User é prototipo de newUser;
+//nemUser novo objeto;
+
+function Admin(name, )

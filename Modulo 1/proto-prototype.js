@@ -10,3 +10,4 @@ const msg = Object.setPrototypeOf(user, estudante)
 console.log(msg)
 
 //entendi nada
+
