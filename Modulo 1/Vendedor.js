@@ -1,3 +1,6 @@
+
+//encapsular, arquivo não pode ser alterado ( # )
+
 class Vendedor {
     constructor(name, cpf){
         this.name = name
@@ -7,4 +10,5 @@ class Vendedor {
 
 const novoVendedor = new Vendedor('camila','08398298')
 console.log(novoVendedor)
+
  

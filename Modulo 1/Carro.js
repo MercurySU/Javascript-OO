@@ -1,4 +1,5 @@
 //criando uma classe com de carro 
+
 export default class Carro {   //export to use in qqr file out the class.js, sintaxe nova
     constructor(marca, model, placa, color, seguro){
         this.marca = marca;
