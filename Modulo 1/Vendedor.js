@@ -1,5 +1,3 @@
-import Carro from "./Carro.js"
-
 class Vendedor {
     constructor(name, cpf){
         this.name = name
